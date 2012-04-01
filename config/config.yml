@@ -1,0 +1,8 @@
+---
+title:               Ruuva Blog
+tagline:             "Happenings straight from the Ruuva Team!"
+login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "hello@ruuva.com" %>
+password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "jefflam10" %>
+name:                Ruuva
+email:               hello@ruuva.com
+google_analytics_id: YOUR_GA_ID
